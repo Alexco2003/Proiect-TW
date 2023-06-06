@@ -1,0 +1,213 @@
+body {
+    font-family: Arial, sans-serif;
+    padding:0;
+    margin:0;
+    border: 0;
+  }
+  
+/* Styling for the Taxi Prices */
+.pricing-section h2 {
+    color: #3b4a6b;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+    
+}
+
+.price {
+    color: green;
+  }
+
+  
+/* Styling for the list items */
+.pricing-section ul li {
+    font-size: 20px;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+    position: relative; /* Add position relative */
+    overflow: hidden; /* Hide the overflow */
+  }
+  
+  /* Styling for the bullet */
+  .pricing-section ul li::before {
+    content: "•"; /* Add the bullet symbol */
+    display: inline-block;
+    width: 1em;
+    margin-right: 0.5em; /* Adjust the spacing between the bullet and text */
+  }
+  
+  /* Hover effect for the list items */
+  .pricing-section ul li:hover {
+    transform: translateX(5%); /* Slide in slightly to the right */
+    font-size: 1.7em;
+  }
+  
+  
+  
+
+
+
+  #commands-container {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  
+  .command {
+    margin-bottom: 10px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+  
+  .fade-out {
+    animation: fade-out-animation 1s ease-out forwards;
+  }
+  
+  @keyframes fade-out-animation {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+
+  hr.new1{
+    border: none;
+    height: 10px;
+    background-image: linear-gradient(to right, rgba(240,212,58,255) 0px, rgba(240,212,58,255) 50%, #3b4a6b 50%, #3b4a6b 100%);
+    background-size: 20px 10px;
+    padding: 0;
+    margin: 0;
+  
+  }
+  hr.new2{
+    height: 10px;
+    background-image: linear-gradient(to right, #3b4a6b 50%, rgba(240,212,58,255) 50%);
+    background-size: 20px 20px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    }
+  
+  hr.linia1{
+  
+    height: 4px;
+    background-color:#000000;
+    background-size: 20px 20px;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  hr.linia2{
+  
+    height: 4px;
+    background-color:#000000;
+    background-size: 20px 20px;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+ 
+   
+
+  header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:rgba(240,212,58,255);
+    text-align: center;
+    padding: 0.1px;
+    height: 35vh;
+    align-content: center;
+    margin: auto;
+    
+  }
+  
+  header h1.title {
+   
+    font-size: 100px;
+    font-weight: bold;
+    color: #3b4a6b;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  }
+
+/* Styles for the section container */
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  /* Styles for the heading */
+  h2 {
+    font-size: 24px;
+    color: #3b4a6b;
+    text-decoration: underline;
+    font-size: 32px;
+    
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  /* Styles for the select element */
+  select {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    border: 3px solid red;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the radio buttons */
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  .form-container p{
+    color: green;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  /* Styles for the input text field */
+  input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    border: 3px solid red;
+    border-radius: 4px;
+  }
+  
+  /* Styles for the "Book Now" button */
+  button#book-now {
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+  
+  button#book-now:hover {
+    background-color: darkred;
+  }
+  
+  /* Optional: Add more styles as per your preference */
+  

@@ -1,0 +1,75 @@
+hr.new1{
+    border: none;
+    height: 10px;
+    background-image: linear-gradient(to right, rgba(240,212,58,255) 0px, rgba(240,212,58,255) 50%, #3b4a6b 50%, #3b4a6b 100%);
+    background-size: 20px 10px;
+    padding: 0;
+    margin: 0;
+  
+  }
+  hr.new2{
+    height: 10px;
+    background-image: linear-gradient(to right, #3b4a6b 50%, rgba(240,212,58,255) 50%);
+    background-size: 20px 20px;
+    border: none;
+    padding: 0;
+    margin: 0;
+    }
+  
+  hr.linia1{
+  
+    height: 4px;
+    background-color:#000000;
+    background-size: 20px 20px;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  hr.linia2{
+  
+    height: 4px;
+    background-color:#000000;
+    background-size: 20px 20px;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color:rgba(240,212,58,255);
+    text-align: center;
+    padding: 0.1px;
+    height: 35vh;
+    align-content: center;
+    margin: auto;
+    
+  }
+  
+  header h1.title {
+   
+    font-size: 100px;
+    font-weight: bold;
+    color: #3b4a6b;
+    text-shadow: rgb(255, 255, 255) 1px 0 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    padding:0;
+    margin:0;
+    border: 0;
+    background-color: rgba(240,212,58,255);
+  }
+
+  #data-container ul{font-weight: bold;
+  font-size: 30px;
+color: #3b4a6b;}
+
+  #data-container h2{font-weight: bolder;
+  font-size: 45px;
+text-decoration: underline;
+color: #3b4a6b;}

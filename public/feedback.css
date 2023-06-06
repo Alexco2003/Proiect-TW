@@ -1,0 +1,115 @@
+ 
+
+ body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  input,
+  select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .error {
+    color: red;
+  }
+  hr.new1{
+  border: none;
+  height: 10px;
+  background-image: linear-gradient(to right, rgba(240,212,58,255) 0px, rgba(240,212,58,255) 50%, #3b4a6b 50%, #3b4a6b 100%);
+  background-size: 20px 10px;
+  padding: 0;
+  margin: 0;
+
+}
+hr.new2{
+  height: 10px;
+  background-image: linear-gradient(to right, #3b4a6b 50%, rgba(240,212,58,255) 50%);
+  background-size: 20px 20px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  }
+
+hr.linia1{
+
+  height: 4px;
+  background-color:#000000;
+  background-size: 20px 20px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+hr.linia2{
+
+  height: 4px;
+  background-color:#000000;
+  background-size: 20px 20px;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+ 
+
+header {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color:rgba(240,212,58,255);
+  text-align: center;
+  padding: 0.1px;
+  height: 35vh;
+  align-content: center;
+  margin: auto;
+  
+}
+
+header h1.title {
+ 
+  font-size: 100px;
+  font-weight: bold;
+  color: #3b4a6b;
+  text-shadow: rgb(255, 255, 255) 1px 0 10px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}

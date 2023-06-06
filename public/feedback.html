@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Feedback Form</title>
+  <link rel="stylesheet" href="feedback.css" />
+ 
+  
+</head>
+<body>
+    <header>
+        <img src="imageedit_1_7472908338.jpg" width="600" height="300">
+        <h1 class="title">  Feedback Form  </h1>
+        <img src="imageedit_1_7472908338.jpg" width="600" height="300">
+        
+      </header>
+    <hr class="linia1">
+    <hr class="new1">
+    <hr class="new2">
+    <hr class="linia2">
+    <br>
+    <br>
+  
+  <form onsubmit="return validateForm()">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+    <br>
+    <br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" required pattern="[^\s@]+@[^\s@]+\.[^\s@]+">
+    <br>
+    <br>
+    
+    <label for="grade">Grade:</label>
+    <select id="grade" required>
+      <option value="">-- Select a grade --</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+      <option value="6">6</option>
+      <option value="7">7</option>
+      <option value="8">8</option>
+      <option value="9">9</option>
+      <option value="10">10</option>
+    </select>
+    <br>
+    <br>
+    
+    <label for="satisfaction">Satisfaction Level:</label>
+    <input type="range" id="satisfaction" min="1" max="10" required>
+    <br>
+    
+    <label for="message">Message:</label>
+    <input type="text" id="message" required>
+    <br>
+    <br>
+    <input type="submit" value="Submit Feedback">
+  </form>
+<br>
+<br>
+  <hr class="linia1">
+    <hr class="new1">
+    <hr class="new2">
+    <hr class="linia2">
+    <script src="feedback.js"></script>
+</body>
+</html>

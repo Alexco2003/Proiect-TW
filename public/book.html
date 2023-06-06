@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Taxi Booking</title>
+    <link rel="stylesheet" href="book.css">
+</head>
+
+<body>
+    <header>
+        <img src="imageedit_1_7472908338.jpg" width="600" height="300">
+        <h1 class="title">  TAXI Booking  </h1>
+        <img src="imageedit_1_7472908338.jpg" width="600" height="300">
+        
+      </header>
+    <hr class="linia1">
+    <hr class="new1">
+    <hr class="new2">
+    <hr class="linia2">
+
+    <div class="pricing-section">
+        <h2>Prices:</h2>
+        <ul>
+          <li>Audi - Normal: <span class="price">20€</span></li>
+          <li>Audi - Luxury: <span class="price">40€</span></li>
+          <li>McLaren - Normal: <span class="price">30€</span></li>
+          <li>McLaren - Luxury: <span class="price">60€</span></li>
+          <li>Mercedes - Normal: <span class="price">25€</span></li>
+          <li>Mercedes - Luxury: <span class="price">50€</span></li>
+          <li>BMW - Normal: <span class="price">20€</span></li>
+          <li>BMW - Luxury: <span class="price">40€</span></li>
+          <li>Lamborghini - Normal: <span class="price">35€</span></li>
+          <li>Lamborghini - Luxury: <span class="price">70€</span></li>
+          <li>Ferrari - Normal: <span class="price">30€</span></li>
+          <li>Ferrari - Luxury: <span class="price">60€</span></li>
+        </ul>
+      </div>
+      
+
+    <hr class="linia1">
+    <hr class="new1">
+    <hr class="new2">
+    <hr class="linia2">
+
+
+    <div>
+        <h2>Your order:</h2>
+    </div>
+
+    <hr class="linia1">
+    <hr class="new1">
+    <hr class="new2">
+    <hr class="linia2">
+    <br>
+
+    <div class="form-container">
+        <label for="taxi-type">Select the brand of the Taxi: </label>
+        <select id="taxi-type">
+            <option value="Audi">Audi</option>
+            <option value="McLaren">McLaren</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="BMW">BMW</option>
+            <option value="Lamborghini">Lamborghini</option>
+            <option value="Ferrari">Ferrari</option>
+        </select>
+
+       
+
+        <p>Choose the comfort option:</p>
+        <label>
+            <input type="radio" name="comfort-option" value="Normal" checked>
+            Normal
+        </label>
+
+        <label>
+            <input type="radio" name="comfort-option" value="Luxury">
+            Luxury
+        </label>
+
+        <br>
+        
+
+
+        <label for="name">Enter your name: </label>
+        <input type="text" id="name" placeholder="Example: Codarcea Alexandru">
+
+        
+        <br>
+        <br>
+        <button id="book-now">Book Now!</button>
+        <br>
+        <br>
+
+       
+
+        
+    </div>
+    <hr class="linia1">
+    <hr class="new1">
+    <hr class="new2">
+    <hr class="linia2">
+    <h2>Active orders:</h2>
+
+    <hr class="linia1">
+    <hr class="new1">
+    <hr class="new2">
+    <hr class="linia2">
+     
+    <div id="commands-container">
+    </div>
+
+    <hr class="linia1">
+    <hr class="new1">
+    <hr class="new2">
+    <hr class="linia2">
+
+    <script src="book.js"></script>
+</body>
+
+</html>
